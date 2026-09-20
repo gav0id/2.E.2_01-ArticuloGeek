@@ -1,1 +1,18 @@
+public class ArticuloGeek{
+    String nombre;
+    double precioBase;
+}
 
+public class Main {
+    public static void main(String[] args){
+        ArticuloGeek ag1 = new ArticuloGeek();
+            ag1.nombre="Figura de Miku";
+            ag1.precioBase= 67000;
+            System.out.println("El nombre es "+ ag1.nombre + " y su precio base es " + ag1.precioBase);
+
+        ArticuloGeek ag2 = new ArticuloGeek();
+        ag2.nombre="Tomo de manga";
+        ag2.precioBase= 15000;
+        System.out.println("El nombre es "+ ag2.nombre + " y su precio base es " + ag2.precioBase);
+    }
+}
