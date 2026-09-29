@@ -3,6 +3,8 @@ public class ArticuloGeek{
     double precioBase;
 }
 
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 public class Main {
     public static void main(String[] args){
         ArticuloGeek ag1 = new ArticuloGeek();
